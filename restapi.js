@@ -10,7 +10,6 @@ const getData = (data) => {
             document.body.appendChild(content)
         }
     }
-
 }
 
 fetch('https://www.skolasiljegovac.org.rs/wp-json/wp/v2/pages')
