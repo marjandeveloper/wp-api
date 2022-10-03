@@ -12,6 +12,7 @@ const getData = (data) => {
     }
 }
 
+
 fetch('https://www.skolasiljegovac.org.rs/wp-json/wp/v2/pages')
     .then(res => res.json())
     .then(data => getData(data))
